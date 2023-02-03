@@ -14,7 +14,7 @@ type book struct {
 	ImgUrl string `json:"imgurl"`
 }
 
-func main2() {
+func main() {
 	// Instantiate default collector
 	c := colly.NewCollector(
 		colly.AllowedDomains("books.toscrape.com"),
